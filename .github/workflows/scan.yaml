@@ -1,5 +1,5 @@
 
-name: Build
+name: SonarQube Scan
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: SonarQube Scan
     runs-on: self-hosted
     permissions: read-all
     steps:
